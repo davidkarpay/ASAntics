@@ -8,7 +8,9 @@
       "Bash(streamlit run:*)",
       "mcp__ide__executeCode",
       "Bash(del test_csv_parser.py)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }
