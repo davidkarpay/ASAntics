@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(python:*)",
+      "Bash(mv:*)",
+      "Bash(streamlit run:*)",
+      "mcp__ide__executeCode",
+      "Bash(del test_csv_parser.py)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
