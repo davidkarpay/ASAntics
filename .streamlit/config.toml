@@ -8,7 +8,19 @@ font = "sans serif"
 [server]
 headless = true
 port = 8501
+address = "localhost"
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 10
 
 [browser]
-serverAddress = "sao.karpaylegal.com"
 gatherUsageStats = false
+serverAddress = "localhost"
+
+[global]
+developmentMode = false
+logLevel = "warning"
+suppressDeprecationWarnings = true
+
+[logger]
+level = "warning"
